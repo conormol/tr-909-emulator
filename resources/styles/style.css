@@ -23,6 +23,12 @@ h1 {
     background-color: #B8B6B6;
 }
 
+h2 {
+    font-size: 2rem;
+    color: #D34C00;
+    background-color: #B8B6B6;
+}
+
 ul li {
     text-align: center;
     display: flex;
