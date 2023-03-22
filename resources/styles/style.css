@@ -1,6 +1,6 @@
 @font-face {
     font-family: font;
-    src: url(/Users/conormolloy/Coding/web_dev/Websites/TR-909/resources/fonts/TR-909.ttf);
+    src: url(../fonts/TR-909.ttf);
   }
 
 * {
@@ -34,6 +34,7 @@ ul li {
     height: 100px;
     width: 100px;
     margin: 2rem;
+    transition: all .05s ease-in;
 }
 
 ul {
@@ -59,4 +60,10 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     margin: 4rem 2rem;
+}
+
+ul li:hover {
+    font-size: 1.1rem;
+    cursor: pointer;
+    background-color: green;
 }
