@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/styles/style.css" rel="stylesheet" type="text/css">
-    <title>TR-909 Emulator</title>
-</head>
-<body>
-    <div class="container">
-        <h1>TR-909</h1>
-        <br>
-        <h2>Rhythm Composer</h2>
-        <ul class="button-list">
-            <li class="drum--button">Kick</li>
-            <li class="drum--button">Snare</li>
-            <li class="drum--button">Lo Tom</li>
-            <li class="drum--button">Mid tom</li>
-            <li class="drum--button">Hi Tom</li>
-            <li class="drum--button">Rim</li>
-            <li class="drum--button">Clap</li>
-            <li class="drum--button">Closed Hat</li>
-            <li class="drum--button">Open Hat</li>
-            <li class="drum--button">Crash</li>
-            <li class="drum--button">Ride</li>
-        </ul>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./resources/styles/style.css" rel="stylesheet" type="text/css">
+        <title>TR-909 Emulator</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>TR-909</h1>
+            <br>
+            <h2>Rhythm Composer</h2>
+            <ul class="button-list">
+                <li data-key="32" class="key">Kick</li>
+                <li data-key="49" class="key">Snare</li>
+                <li data-key="50" class="key">Lo Tom</li>
+                <li data-key="51" class="key">Mid tom</li> 
+                <li data-key="52" class="key">Hi Tom</li>
+                <li data-key="53" class="key">Rim</li>
+                <li data-key="54" class="key">Clap</li>
+                <li data-key="55" class="key">Closed Hat</li>
+                <li data-key="56" class="key">Open Hat</li>
+                <li data-key="57" class="key">Crash</li>
+                <li data-key="48" class="key">Ride</li>
+            </ul>
+        </div>
+
+        <audio data-key="32" src="./resources/audio/kick.aif"></audio>
+        <audio data-key="49" src="./resources/audio/snare.aif"></audio>
+        <audio data-key="50" src="./resources/audio/lo_tom.aif"></audio>
+        <audio data-key="51" src="./resources/audio/mid_tom.aif"></audio>
+        <audio data-key="52" src="./resources/audio/hi_tom.aif"></audio>
+        <audio data-key="53" src="./resources/audio/rim.aif"></audio>
+        <audio data-key="54" src="./resources/audio/clap.aif"></audio>
+        <audio data-key="55" src="./resources/audio/closed_hat.aif"></audio>
+        <audio data-key="56" src="./resources/audio/open_hat.aif"></audio>
+        <audio data-key="57" src="./resources/audio/crash.aif"></audio>
+        <audio data-key="48" src="./resources/audio/ride.aif"></audio>
+    </body>
+   <script src="./main.js"></script>
+
 </html>

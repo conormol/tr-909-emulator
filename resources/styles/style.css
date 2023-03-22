@@ -29,7 +29,7 @@ h2 {
     background-color: #B8B6B6;
 }
 
-ul li {
+.key {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -40,7 +40,13 @@ ul li {
     height: 100px;
     width: 100px;
     margin: 2rem;
-    transition: all .02s ease-in;
+    transition: all .02s;
+}
+
+.playing {
+    font-size: 1.2rem;
+    background-color: rgb(1, 174, 1);
+
 }
 
 ul {
@@ -68,14 +74,15 @@ ul {
     margin: 4rem 2rem;
 }
 
-.drum--button:hover {
+.key:hover {
     font-size: 1.1rem;
     cursor: pointer;
-    background-color: green;
+    background-color: rgb(196, 196, 196);
+    box-shadow: 0 0 20px #7A7979;
 }
 
-.drum--button:active {
+/*.drum--button:active {
     font-size: 1rem;
     cursor: pointer;
     background-color: rgb(1, 174, 1);
-}
+}*/
